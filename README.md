@@ -3,12 +3,10 @@
 ## Part 1
 
 ### How many Twitter users are in the database?
-
     [
         { "$group" : { "_id" : "$user", } },
         { "$count" : "user_count" },
     ]
-
 ### Who are the most active Twitter users (top ten)?
 
     [
@@ -58,3 +56,6 @@
     ]
 
 ## Part2
+
+
+
