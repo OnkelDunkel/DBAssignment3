@@ -4,7 +4,8 @@
 
 ### Q1
 
-    collection.distinct("user")
+    [ $group : { _id : "$user", },
+      $count : "user_count"]
 
 ### Q2
 
