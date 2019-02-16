@@ -113,5 +113,11 @@ Output:
 
 ## Part2
 
+| Model | Atomicity | Sharding | Indexes | Large Number of Collections | Collection Contains Large Number Of Small Documents |
+|---------------------|-----------|----------|---------|-----------------------------|-----------------------------------------------------|
+| Arrays of Ancestors |  |  |  |  |  |
+| Materialized paths |  |  |  |  |  |
+| Nested sets |  |  |  |  |  |
+
 
 
