@@ -4,8 +4,10 @@
 
 ### Q1
 
-    [ $group : { _id : "$user", },
-      $count : "user_count"]
+    [
+        $group : { _id : "$user", },
+        $count : "user_count"
+    ]
 
 ### Q2
 
