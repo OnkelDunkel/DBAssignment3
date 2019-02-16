@@ -10,6 +10,7 @@
     ]
 
 Output:
+
     [{'user_count': 659774}]
 
 ### Who are the most active Twitter users (top ten)?
@@ -21,6 +22,7 @@ Output:
     ]
 
 Output:
+
     [{'_id': 'lost_dog', 'tweet_count': 549},
      {'_id': 'webwoke', 'tweet_count': 345},
      {'_id': 'tweetpet', 'tweet_count': 310},
@@ -43,6 +45,7 @@ Output:
     ]
 
 Output:
+
     [{'_id': 'fazzwick', 'polarity': 0.0},
      {'_id': 'Charlauren', 'polarity': 0.0},
      {'_id': 'Echo_Park', 'polarity': 0.0},
@@ -58,6 +61,7 @@ Output:
     ]
 
 Output:
+
     [{'_id': 'xoAurixo', 'polarity': 4.0},
      {'_id': 'puchal_ek', 'polarity': 4.0},
      {'_id': 'sdancingsteph', 'polarity': 4.0},
@@ -76,6 +80,7 @@ Output:
     ]
 
 Output:
+
     [{'_id': 'lost_dog', 'count': 546},
      {'_id': 'dogzero', 'count': 333},
      {'_id': 'tweetpet', 'count': 302},
@@ -99,6 +104,7 @@ Output:
     ]
 
 Output:
+
     [{'_id': '@mileycyrus', 'mentions': 4310},
      {'_id': '@tommcfly', 'mentions': 3837},
      {'_id': '@ddlovato', 'mentions': 3349},
