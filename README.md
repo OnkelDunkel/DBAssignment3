@@ -9,7 +9,7 @@
         { "$count" : "user_count" },
     ]
 
-
+Output:
     [{'user_count': 659774}]
 
 ### Who are the most active Twitter users (top ten)?
@@ -20,7 +20,7 @@
         { "$limit" : 10 },
     ]
 
-
+Output:
     [{'_id': 'lost_dog', 'tweet_count': 549},
      {'_id': 'webwoke', 'tweet_count': 345},
      {'_id': 'tweetpet', 'tweet_count': 310},
@@ -34,7 +34,7 @@
 
 ### Who are the five most grumpy (most negative tweets) and the most happy (most positive tweets)?
 
-##### Most grumpy
+#### Most grumpy
 
     [
         { "$group" : { "_id" : "$user", "polarity" : { "$avg" : "$polarity" }}},
@@ -42,14 +42,14 @@
         { "$limit" : 5 },
     ]
 
-
+Output:
     [{'_id': 'fazzwick', 'polarity': 0.0},
      {'_id': 'Charlauren', 'polarity': 0.0},
      {'_id': 'Echo_Park', 'polarity': 0.0},
      {'_id': 'jschenck', 'polarity': 0.0},
      {'_id': 'Iyeman', 'polarity': 0.0}]
 
-##### Most happy
+#### Most happy
 
     [
         { "$group" : { "_id" : "$user", "polarity" : { "$avg" : "$polarity" }}},
@@ -57,7 +57,7 @@
         { "$limit" : 5 },
     ]
 
-
+Output:
     [{'_id': 'xoAurixo', 'polarity': 4.0},
      {'_id': 'puchal_ek', 'polarity': 4.0},
      {'_id': 'sdancingsteph', 'polarity': 4.0},
@@ -75,7 +75,7 @@
         { "$limit" : 10 },
     ]
 
-
+Output:
     [{'_id': 'lost_dog', 'count': 546},
      {'_id': 'dogzero', 'count': 333},
      {'_id': 'tweetpet', 'count': 302},
@@ -98,7 +98,7 @@
         { "$limit" : 5 },
     ]
 
-
+Output:
     [{'_id': '@mileycyrus', 'mentions': 4310},
      {'_id': '@tommcfly', 'mentions': 3837},
      {'_id': '@ddlovato', 'mentions': 3349},
