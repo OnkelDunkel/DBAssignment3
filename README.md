@@ -3,10 +3,12 @@
 ## Part 1
 
 ### How many Twitter users are in the database?
+
     [
         { "$group" : { "_id" : "$user", } },
         { "$count" : "user_count" },
     ]
+
 ### Who are the most active Twitter users (top ten)?
 
     [
@@ -17,7 +19,7 @@
 
 ### Who are the five most grumpy (most negative tweets) and the most happy (most positive tweets)?
 
-#### Most grumpy
+##### Most grumpy
 
     [
         { "$group" : { "_id" : "$user", "polarity" : { "$avg" : "$polarity" }}},
@@ -25,7 +27,7 @@
         { "$limit" : 5 },
     ]
 
-#### Most happy
+##### Most happy
 
     [
         { "$group" : { "_id" : "$user", "polarity" : { "$avg" : "$polarity" }}},
