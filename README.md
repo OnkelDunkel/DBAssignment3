@@ -1,11 +1,11 @@
-#DB assignment 3
+# DB assignment 3
 
-##Part 1
+## Part 1
 
-###Q1
+### Q1
 
     collection.distinct("user")
 
-###Q2
+### Q2
 
-##Part2
+## Part2
