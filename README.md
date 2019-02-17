@@ -113,6 +113,8 @@ Output:
 
 ## Part2
 
+I did not manage to complete part 2 of the assignment before deadline.
+
 | Model | Atomicity | Sharding | Indexes | Large Number of Collections | Collection Contains Large Number Of Small Documents |
 |---------------------|-----------|----------|---------|-----------------------------|-----------------------------------------------------|
 | Arrays of Ancestors |  |  |  |  |  |
